@@ -1,121 +1,122 @@
 # Projeto-EDOO
-Sistema de Gerenciamento de Times de Futebol
 
-Instruções de Uso do Código
+# Sistema de Gerenciamento de Times de Futebol ⚽📘
 
+Este documento apresenta as instruções para utilizar o sistema de gerenciamento de times de futebol. A seguir, você encontrará detalhes sobre como realizar operações como contratação de jogadores, troca de jogadores entre times, renovação de contratos e visualização de informações sobre os times.
 
-O código implementa um sistema de gerenciamento de times de futebol, onde você pode realizar operações como contratar jogadores, trocar jogadores entre times, renovar contratos e visualizar informações sobre os times. 
+## 🚀 Instruções de Uso
 
+### Menu de Opções
 
-1. Menu de Opções
-Ao executar o programa, utilizando uma plataforma de desenvolvimento como VS Code, por exemplo, você interagirá com o programa diretamente no terminal, onde será exibido o menu com as seguintes opções:
+Ao acessar o sistema, você será apresentado a um menu interativo com as seguintes opções:  
 
-Escolha uma opcao:
-1. Contratar Jogador
-2. Troca de Jogadores
-3. Renovar Contrato
-4. Receber Informacao do Time
-5. Sair
+1. **Contratar Jogador**  
+2. **Troca de Jogadores**  
+3. **Renovar Contrato**  
+4. **Receber Informação do Time**  
+5. **Sair**  
 
-Digite o número correspondente à operação que deseja realizar e pressione Enter.
+Digite o número correspondente à operação desejada e pressione **Enter** para prosseguir.
 
+## ⚙️ Operações Disponíveis
 
-2. Operações Disponíveis
+### 1️⃣ Contratar Jogador  
+Permite a transferência de um jogador de um time para outro.  
 
-Opção 1: Contratar Jogador
-Permite que um time contrate um jogador de outro time.
+**Como utilizar:**  
+1. Informe o nome do time vendedor.  
+   *Exemplo*: `Flamengo`  
+2. Informe o nome do jogador a ser transferido.  
+   *Exemplo*: `Pedro`  
+3. Insira o nome do time comprador.  
+   *Exemplo*: `Corinthians`  
+4. Insira a nova data de contrato no formato **dd/mm/aaaa**.  
+   *Exemplo*: `31/12/2026`  
 
-1. O programa solicitará o nome do time que vai vender o jogador.
-   - Exemplo: Digite “Flamengo”.
-2. Em seguida, digite o nome do jogador que será transferido.
-   - Exemplo: Digite “Pedro”.
-3. Depois, informe o nome do time que vai contratar o jogador.
-   - Exemplo: Digite “Corinthians”.
-4. Por fim, insira a nova data de contrato no formato `dd/mm/aaaa`.
-   - Exemplo: Digite “31/12/2026”.
+**Resultado:** O jogador será transferido para o time comprador, e o contrato será atualizado com a nova data.
 
-O jogador será transferido do time vendedor para o time comprador, e o contrato será atualizado com a nova data.
+---
 
+### 2️⃣ Troca de Jogadores  
+Permite a troca de jogadores entre dois times.  
 
-Opção 2: Troca de Jogadores
-Permite a troca de jogadores entre dois times.
+**Como utilizar:**  
+1. Informe o nome do primeiro time.  
+   *Exemplo*: `AtleticoMG`  
+2. Insira o nome do jogador do primeiro time.  
+   *Exemplo*: `Hulk`  
+3. Informe o nome do segundo time.  
+   *Exemplo*: `Cruzeiro`  
+4. Insira o nome do jogador do segundo time.  
+   *Exemplo*: `Gabriel Barbosa`  
+5. Insira as novas datas de contrato para ambos os jogadores no formato **dd/mm/aaaa**.  
+   *Exemplo para o primeiro jogador*: `31/12/2027`  
+   *Exemplo para o segundo jogador*: `31/12/2028`  
 
-1. O programa solicitará o nome do primeiro time.
-   - Exemplo: Digite “AtleticoMG”.
-2. Em seguida, digite o nome do jogador do primeiro time que será trocado.
-   - Exemplo: Digite “Hulk”.
-3. Depois, informe o nome do segundo time.
-   - Exemplo: Digite “Cruzeiro”.
-4. Em seguida, digite o nome do jogador do segundo time que será trocado.
-   - Exemplo: Digite “Gabriel Barbosa”.
-5. Por fim, insira as novas datas de contrato para ambos os jogadores no formato “dd/mm/aaaa”.
-   - Exemplo: Para o primeiro jogador, digite “31/12/2027”.
-   - Exemplo: Para o segundo jogador, digite “31/12/2028”.
+**Resultado:** Os jogadores serão trocados entre os times, e os contratos serão atualizados.
 
-Os jogadores serão trocados entre os times, e os contratos serão atualizados.
+---
 
+### 3️⃣ Renovar Contrato  
+Permite atualizar a data de contrato de um jogador.  
 
-Opção 3: Renovar Contrato
-Permite renovar o contrato de um jogador.
+**Como utilizar:**  
+1. Informe o nome do time.  
+   *Exemplo*: `Flamengo`  
+2. Insira o nome do jogador.  
+   *Exemplo*: `Pedro`  
+3. Informe a nova data de contrato no formato **dd/mm/aaaa**.  
+   *Exemplo*: `31/12/2027`  
 
-1. O programa solicitará o nome do time.
-   - Exemplo: Digite “Flamengo”.
-2. Em seguida, digite o nome do jogador que terá o contrato renovado.
-   - Exemplo: Digite “Pedro”.
-3. Por fim, insira a nova data de contrato no formato “dd/mm/aaaa”.
-   - Exemplo: Digite “31/12/2027”.
+**Resultado:** O contrato do jogador será atualizado com a nova data.
 
-O contrato do jogador será atualizado com a nova data.
+---
 
+### 4️⃣ Receber Informação do Time  
+Permite visualizar detalhes sobre um time e seus jogadores.  
 
-Opção 4: Receber Informação do Time
-Permite visualizar todas as informações de um time, incluindo jogadores e seus contratos.
+**Como utilizar:**  
+1. Insira o nome do time.  
+   *Exemplo*: `Corinthians`  
 
-1. O programa solicitará o nome do time.
-   - Exemplo: Digite “Corinthians”.
-2. O sistema exibirá as informações do time, como:
-   - Nome do time.
-   - Nome do estádio.
-   - Capacidade do estádio.
-   - Nome do técnico.
-   - Lista de jogadores com seus valores de mercado e datas de término de contrato.
-   - Valor total do time (soma dos valores de mercado dos jogadores).
+**Resultado:** O sistema exibirá informações como:  
+- Nome do time  
+- Estádio e sua capacidade  
+- Técnico do time  
+- Lista de jogadores com seus valores de mercado e contratos  
+- Valor total do time (soma dos valores de mercado dos jogadores)
 
+---
 
-Opção 5: Sair
-Encerra o programa.
+## 📝 Exemplos de Uso
 
+- **Contratar Jogador**  
+  - Time vendedor: `Flamengo`  
+  - Jogador: `Pedro`  
+  - Time comprador: `Corinthians`  
+  - Nova data de contrato: `31/12/2026`
 
-3. Exemplos de Uso
+- **Troca de Jogadores**  
+  - Primeiro time: `AtleticoMG`  
+  - Jogador do primeiro time: `Hulk`  
+  - Segundo time: `Cruzeiro`  
+  - Jogador do segundo time: `Gabriel Barbosa`  
+  - Nova data de contrato para o primeiro jogador: `31/12/2027`  
+  - Nova data de contrato para o segundo jogador: `31/12/2028`
 
-Exemplo 1: Contratar Jogador
-- Time vendedor: “Flamengo”
-- Jogador: “Pedro”
-- Time comprador: “Corinthians”
-- Nova data de contrato: “31/12/2026”
+- **Renovar Contrato**  
+  - Time: `Flamengo`  
+  - Jogador: `Pedro`  
+  - Nova data de contrato: `31/12/2027`
 
-Exemplo 2: Troca de Jogadores
-- Primeiro time: “AtleticoMG”
-- Jogador do primeiro time: “Hulk”
-- Segundo time: “Cruzeiro”
-- Jogador do segundo time: “Gabriel Barbosa”
-- Nova data de contrato para o primeiro jogador: “31/12/2027”
-- Nova data de contrato para o segundo jogador: “31/12/2028”
+---
 
-Exemplo 3: Renovar Contrato
-- Time: “Flamengo”
-- Jogador: “Pedro”
-- Nova data de contrato: “31/12/2027”
+## 📌 Observações
 
-Exemplo 4: Receber Informação do Time
-- Time: “Corinthians”
+- Certifique-se de digitar corretamente os nomes dos times e jogadores, respeitando letras maiúsculas e minúsculas (case-sensitive).  
+- As alterações realizadas no sistema não são persistidas após o encerramento do programa.  
 
+## 💡 Dicas
 
-4. Observações
-- Certifique-se de digitar os nomes dos times e jogadores exatamente como estão definidos no código (case-sensitive).
-- Ao renovar um contrato, a nova data deve ter um ano maior que o ano atual do contrato.
-- O programa não salva os dados após o encerramento. Todas as alterações são perdidas quando o programa é fechado.
-
-5. Dicas
-- Use nomes de times e jogadores corretamente, conforme definidos no código.
-- Para facilitar, consulte a lista de times e jogadores diretamente no código antes de realizar operações.
+- Consulte a lista de times e jogadores diretamente no código para evitar erros de digitação.  
+- Sempre insira datas de contrato válidas e coerentes com os anos atuais dos jogadores.  

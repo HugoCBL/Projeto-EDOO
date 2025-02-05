@@ -8,7 +8,7 @@ O código implementa um sistema de gerenciamento de times de futebol, onde você
 
 
 1. Menu de Opções
-Ao executar o programa, você verá um menu com as seguintes opções:
+Ao executar o programa, utilizando uma plataforma de desenvolvimento como VS Code, por exemplo, você interagirá com o programa diretamente no terminal, onde será exibido o menu com as seguintes opções:
 
 Escolha uma opcao:
 1. Contratar Jogador
